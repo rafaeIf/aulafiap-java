@@ -22,6 +22,9 @@ public class Main {
 
         System.out.println("O nome da pessoa é: " + nome);
 
+
+        leitorDeDados.close(); // para a saúde do aplicativo
+
     }
 
 }
