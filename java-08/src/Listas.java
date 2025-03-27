@@ -13,5 +13,7 @@ public class Listas {
         listaDeStrings.add("Outro texto");
 
         System.out.println(listaDeInteiros.size());
+        System.out.println(listaDeInteiros.get(1));
+        System.out.println(listaDeStrings.removeLast());
     }
 }
