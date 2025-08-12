@@ -1,0 +1,1 @@
+jdbc:h2:file:C:\Users\labsfiap\IdeaProjects\java-conexao\banco\bancoDeDados;AUTO_SERVER=TRUE
