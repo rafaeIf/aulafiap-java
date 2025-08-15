@@ -1,3 +1,5 @@
+import banco.ConnectionFactory;
+
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
@@ -20,7 +22,6 @@ public class TesteDeConexao {
         preparedStatement.setDate(3, Date.valueOf(LocalDate.of(2000, 6, 6)));
         preparedStatement.execute();
         preparedStatement.close();
-        conexao.close();
         System.out.println("Desconectado...");
     }
 }
